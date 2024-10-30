@@ -1,0 +1,67 @@
+	.status-draft {
+	    background-color: #fff8f0!important;
+	}
+
+		/*.status-draft:nth-of-type(even) {
+			background-color: #fff3e5!important;
+		}
+
+		.status-draft:nth-of-type(odd) {
+			background-color: #fff8f0!important;
+		}*/
+
+		.status-draft th.check-column {
+			border-left: 4px solid #ee7c1b!important;
+		}
+
+		.status-draft span.post-state {
+		    color: #ee7c1b!important;
+		}
+
+	.status-publish {
+	    background-color: #f7fcfe!important;
+	}
+
+		/*.status-publish:nth-of-type(even) {
+			background-color: #f7fcfe!important;
+		}
+
+		.status-publish:nth-of-type(odd) {
+			background-color: #edf5f9!important;
+		}*/
+
+		.status-publish th.check-column {
+			border-left: 4px solid #00a0d2!important;
+		}
+
+	.status-future {
+	    background-color: #fefff0!important;
+	}
+
+		.status-future th.check-column {
+			border-left: 4px solid #ffb900!important;
+		}
+
+		.status-future span.post-state {
+		    color: #ffb900!important;
+		}
+
+	.status-private {
+	    background-color: #fcf7fe!important;
+	}
+
+		.status-private th.check-column {
+			border-left: 4px solid #ad35d8!important;
+		}
+
+		.status-private span.post-state {
+		    color: #ad35d8!important;
+		}
+
+	.status-publish.post-password-required {
+	    background-color: #e4f7ff!important;
+	}
+
+	.status-publish.post-password-required span.post-state {
+		color: #00a0d2!important;
+	}
